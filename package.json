@@ -1,0 +1,17 @@
+{
+  "name": "dev.thatdrw.mvp.yapyap.wrapper",
+  "version": "1.0.0",
+  "displayName": "YAPYAPWrapper",
+  "description": "Doodoo",
+  "unity": "6000.0",
+  "unityRelease": "58f2",
+  "dependencies": {},
+  "devDependencies": {},
+  "samples": [],
+  "author": {
+    "name": "ThatDRW",
+    "email": "",
+    "url": ""
+  },
+  "type": "library"
+}
