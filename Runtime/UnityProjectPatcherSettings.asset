@@ -124,47 +124,47 @@ MonoBehaviour:
   - key: OccaSoftware.AutoExposure.Runtime
     sourceName: OccaSoftware.AutoExposure.Runtime.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.Buto.Demo
     sourceName: OccaSoftware.Buto.Demo.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.Buto.Runtime
     sourceName: OccaSoftware.Buto.Runtime.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.Buto.Shaders
     sourceName: OccaSoftware.Buto.Shaders.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.DeepSurfaces.Runtime
     sourceName: OccaSoftware.DeepSurfaces.Runtime.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.Exposure.Demo
     sourceName: OccaSoftware.Exposure.Demo.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.Exposure.Shaders
     sourceName: OccaSoftware.Exposure.Shaders.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.HazeFX.Runtime
     sourceName: OccaSoftware.HazeFX.Runtime.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.LSPP.Demo
     sourceName: OccaSoftware.LSPP.Demo.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.LSPP.Runtime
     sourceName: OccaSoftware.LSPP.Runtime.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: OccaSoftware.LSPP.Shaders
     sourceName: OccaSoftware.LSPP.Shaders.dll
     outputPath: OccaSoftware
-    exclude: 0
+    exclude: 1
   - key: BAP.HFSM
     sourceName: BAP.HFSM.dll
     outputPath: 
