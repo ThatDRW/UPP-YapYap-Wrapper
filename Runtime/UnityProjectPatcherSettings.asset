@@ -20,35 +20,35 @@ MonoBehaviour:
   - key: Mirror
     sourceName: Mirror.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: Mirror.Authenticators
     sourceName: Mirror.Authenticators.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: Mirror.BouncyCastle.Cryptography
     sourceName: Mirror.BouncyCastle.Cryptography.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: Mirror.Components
     sourceName: Mirror.Components.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: Mirror.Examples
     sourceName: Mirror.Examples.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: Mirror.Transports
     sourceName: Mirror.Transports.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: kcp2k
     sourceName: kcp2k.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: Telepathy
     sourceName: Telepathy.dll
     outputPath: Mirror
-    exclude: 0
+    exclude: 1
   - key: FMODUnity
     sourceName: FMODUnity.dll
     outputPath: FMOD

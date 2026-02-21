@@ -1,7 +1,7 @@
 using UnityEngine;
 using Nomnom.UnityProjectPatcher.Editor;
 using Nomnom.UnityProjectPatcher.Editor.Steps;
-
+using ThatDRW.UnityProjectPatcher.Editor.Steps;
 
 
 [UPPatcher("YAPYAPWrapper", true)]
@@ -14,9 +14,12 @@ public static class YAPYAPWrapper
         // stepPipeline.InsertLast(new ImportTextMeshProStep());
         stepPipeline.InsertLast(new GenerateGitIgnoreStep());
         // stepPipeline.InsertLast(new GenerateReadmeStep());
+
+        stepPipeline.InsertLast(new InstallUnityPackageFromUrlStep("https://github.com/MirrorNetworking/Mirror/releases/download/v96.0.1/Mirror-96.0.1.unitypackage", "Mirror v96.0.1"));
         stepPipeline.InsertLast(new PackagesInstallerStep()); // recompile
         stepPipeline.InsertLast(new CacheProjectCatalogueStep());
         stepPipeline.InsertLast(new AssetRipperStep());
+
         stepPipeline.InsertLast(new CopyGamePluginsStep()); // recompile // OccaSoftware excluded from DLLs to copy
 
 
