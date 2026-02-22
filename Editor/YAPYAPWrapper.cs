@@ -28,7 +28,13 @@ public static class YAPYAPWrapper
         stepPipeline.InsertLast(new CopyProjectSettingsStep(allowUnsafeCode: true)); // restart
         
         stepPipeline.InsertLast(new GuidRemapperStep());
-        stepPipeline.InsertLast(new CopyAssetRipperExportToProjectStep()); // restarts //  PATCHER BREAKING HERE  //
+        //stepPipeline.InsertLast(new CopyAssetRipperExportToProjectStep()); // restarts //  PATCHER BREAKING HERE  //
+
+        // Incorportating JettsFixes
+        stepPipeline.InsertLast(new SupressedCopyAssetRipperExportToProjectStep());
+        //stepPipeline.InsertLast(new RestartEditorStep());
+
+
         stepPipeline.InsertLast(new FixProjectFileIdsStep());
         stepPipeline.InsertLast(new SortAssetTypesSteps());
         stepPipeline.InsertLast(new RestartEditorStep());

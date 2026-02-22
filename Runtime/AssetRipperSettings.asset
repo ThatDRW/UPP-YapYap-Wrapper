@@ -154,8 +154,7 @@ MonoBehaviour:
   - StreamingAssets
   - VideoClip
   - Scripts\Assembly-CSharp
-  _filesToExcludeFromCopy:
-  - GeneratedNetworkCode.cs
+  _filesToExcludeFromCopy: []
   _foldersToExcludeFromRead:
   - Scripts\Unity.Burst
   - Scripts\Unity.Burst.Unsafe
